@@ -5,9 +5,9 @@ import { images } from "../constants";
 import Button from "@/components/Button";
 import { StatusBar } from "expo-status-bar";
 
-import { Redirect, router } from 'expo-router';
+import { router } from 'expo-router';
 
-export default function Home() {
+export default function Welcome() {
   return (
     <SafeAreaView className="bg-primary h-full">
       <ScrollView contentContainerStyle={{ height: '100%' }}>
