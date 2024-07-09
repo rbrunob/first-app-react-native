@@ -19,6 +19,7 @@ const SignUp = () => {
   const submit = async () => {
     if (!form.username || !form.email || !form.password) {
       Alert.alert('Error', 'Please fill in all the fields');
+      return;
     }
 
     setisSubmitting(true);
